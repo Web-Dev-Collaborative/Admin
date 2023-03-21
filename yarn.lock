@@ -1923,10 +1923,10 @@
     "@tryghost/ignition-errors" "^0.1.0"
     lodash "^4.17.21"
 
-"@tryghost/helpers@1.1.54":
-  version "1.1.54"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.54.tgz#ace79f846df2a7a61b6a62f558e8985377f5acfd"
-  integrity sha512-MuBfJcuvdwT4leZ0RgC4xxxBCwX/O1xl/D/rqinx9yMhcrwy6CmOQMsx0BcFMuihXktUzcql3KG34lRHLjEwZw==
+"@tryghost/helpers@1.1.77":
+  version "1.1.77"
+  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.77.tgz#5a8e14f56a22118ed4423bf44696890651590d65"
+  integrity sha512-YFLvM8B1x66hKA3XrL3AtN9fakVcFIwykISNKqEru601vZKPOI+n8WK8o2MMMD7yhRt5Xq97w+YUoXHsaDcPOg==
   dependencies:
     lodash-es "^4.17.11"
 
