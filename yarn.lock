@@ -1684,20 +1684,19 @@
     "@glimmer/interfaces" "^0.42.2"
     "@glimmer/util" "^0.42.2"
 
-"@html-next/vertical-collection@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@html-next/vertical-collection/-/vertical-collection-2.0.0.tgz#469f30966cf665afcc24a80b59cd0725134b7f79"
-  integrity sha512-+RMxBz8tSSFDDA8Q8NBC5Eak50PVHsB73GL7bkPyAuNtdm324nMVrzqJ6TYVg5mTFbc02W261/9jhfbawQbczA==
+"@html-next/vertical-collection@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@html-next/vertical-collection/-/vertical-collection-4.0.2.tgz#7e9885423eb8c445bce0cc110ac3be281ca6ff87"
+  integrity sha512-S8cgntEDdXrOwdylVGDh1BFe+nX5uuUzzb3teh1FE++/kbqsOfUpXOYRUsEzsqb0fRqcm6eLxvtNb282Zr67rQ==
   dependencies:
     babel6-plugin-strip-class-callcheck "^6.0.0"
-    broccoli-funnel "^2.0.2"
-    broccoli-merge-trees "^3.0.1"
-    broccoli-rollup "^4.1.1"
+    broccoli-funnel "^3.0.8"
+    broccoli-merge-trees "^4.2.0"
+    broccoli-rollup "^5.0.0"
     ember-cli-babel "^7.12.0"
-    ember-cli-htmlbars "^3.0.1"
-    ember-cli-version-checker "^3.1.3"
-    ember-compatibility-helpers "^1.2.1"
-    ember-raf-scheduler "0.2.0"
+    ember-cli-htmlbars "^6.0.0"
+    ember-cli-version-checker "^5.1.2"
+    ember-raf-scheduler "^0.3.0"
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -2009,6 +2008,13 @@
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@types/broccoli-plugin/-/broccoli-plugin-1.3.0.tgz#38f8462fecaebc4e09a32e4d4ed1b9808f75bbca"
   integrity sha512-SLk4/hFc2kGvgwNFrpn2O1juxFOllcHAywvlo7VwxfExLzoz1GGJ0oIZCwj5fwSpvHw4AWpZjJ1fUvb62PDayQ==
+
+"@types/broccoli-plugin@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/broccoli-plugin/-/broccoli-plugin-3.0.0.tgz#290fda2270c47a568edfd0cefab8bb840d8bb7b2"
+  integrity sha512-f+TcsARR2PovfFRKFdCX0kfH/QoM3ZVD2h1rl2mNvrKO0fq2uBNCBsTU3JanfU4COCt5cXpTfARyUsERlC8vIw==
+  dependencies:
+    broccoli-plugin "*"
 
 "@types/chai-as-promised@^7.1.2":
   version "7.1.4"
@@ -4135,6 +4141,19 @@ broccoli-persistent-filter@^3.1.2:
     symlink-or-copy "^1.0.1"
     sync-disk-cache "^2.0.0"
 
+broccoli-plugin@*, broccoli-plugin@^4.0.0, broccoli-plugin@^4.0.1, broccoli-plugin@^4.0.2, broccoli-plugin@^4.0.3, broccoli-plugin@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/broccoli-plugin/-/broccoli-plugin-4.0.7.tgz#dd176a85efe915ed557d913744b181abe05047db"
+  integrity sha512-a4zUsWtA1uns1K7p9rExYVYG99rdKeGRymW0qOCNkvDPHQxVi3yVyJHhQbM3EZwdt2E0mnhr5e0c/bPpJ7p3Wg==
+  dependencies:
+    broccoli-node-api "^1.7.0"
+    broccoli-output-wrapper "^3.2.5"
+    fs-merger "^3.2.1"
+    promise-map-series "^0.3.0"
+    quick-temp "^0.1.8"
+    rimraf "^3.0.2"
+    symlink-or-copy "^1.3.1"
+
 broccoli-plugin@^1.0.0, broccoli-plugin@^1.1.0, broccoli-plugin@^1.2.0, broccoli-plugin@^1.2.1, broccoli-plugin@^1.3.0, broccoli-plugin@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/broccoli-plugin/-/broccoli-plugin-1.3.1.tgz#a26315732fb99ed2d9fb58f12a1e14e986b4fabd"
@@ -4167,19 +4186,6 @@ broccoli-plugin@^3.0.0, broccoli-plugin@^3.1.0:
     quick-temp "^0.1.3"
     rimraf "^2.3.4"
     symlink-or-copy "^1.1.8"
-
-broccoli-plugin@^4.0.0, broccoli-plugin@^4.0.1, broccoli-plugin@^4.0.2, broccoli-plugin@^4.0.3, broccoli-plugin@^4.0.7:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/broccoli-plugin/-/broccoli-plugin-4.0.7.tgz#dd176a85efe915ed557d913744b181abe05047db"
-  integrity sha512-a4zUsWtA1uns1K7p9rExYVYG99rdKeGRymW0qOCNkvDPHQxVi3yVyJHhQbM3EZwdt2E0mnhr5e0c/bPpJ7p3Wg==
-  dependencies:
-    broccoli-node-api "^1.7.0"
-    broccoli-output-wrapper "^3.2.5"
-    fs-merger "^3.2.1"
-    promise-map-series "^0.3.0"
-    quick-temp "^0.1.8"
-    rimraf "^3.0.2"
-    symlink-or-copy "^1.3.1"
 
 broccoli-postcss-single@^4.0.0:
   version "4.0.1"
@@ -4235,6 +4241,21 @@ broccoli-rollup@^4.1.1:
     rollup-pluginutils "^2.8.1"
     symlink-or-copy "^1.2.0"
     walk-sync "^1.1.3"
+
+broccoli-rollup@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/broccoli-rollup/-/broccoli-rollup-5.0.0.tgz#a77b53bcef1b70e988913fee82265c0a4ca530da"
+  integrity sha512-QdMuXHwsdz/LOS8zu4HP91Sfi4ofimrOXoYP/lrPdRh7lJYD87Lfq4WzzUhGHsxMfzANIEvl/7qVHKD3cFJ4tA==
+  dependencies:
+    "@types/broccoli-plugin" "^3.0.0"
+    broccoli-plugin "^4.0.7"
+    fs-tree-diff "^2.0.1"
+    heimdalljs "^0.2.6"
+    node-modules-path "^1.0.1"
+    rollup "^2.50.0"
+    rollup-pluginutils "^2.8.1"
+    symlink-or-copy "^1.2.0"
+    walk-sync "^2.2.0"
 
 broccoli-slow-trees@^3.0.1, broccoli-slow-trees@^3.1.0:
   version "3.1.0"
@@ -6270,7 +6291,7 @@ ember-cli-htmlbars@^2.0.1, ember-cli-htmlbars@^2.0.3:
     json-stable-stringify "^1.0.0"
     strip-bom "^3.0.0"
 
-ember-cli-htmlbars@^3.0.0, ember-cli-htmlbars@^3.0.1:
+ember-cli-htmlbars@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-3.1.0.tgz#87806c2a0bca2ab52d4fb8af8e2215c1ca718a99"
   integrity sha512-cgvRJM73IT0aePUG7oQ/afB7vSRBV3N0wu9BrWhHX2zkR7A7cUBI7KC9VPk6tbctCXoM7BRGsCC4aIjF7yrfXA==
@@ -7128,12 +7149,12 @@ ember-promise-modals@TryGhost/ember-promise-modals#v2.0.0+ghost.3:
     focus-trap "^6.6.1"
     postcss-preset-env "^6.7.0"
 
-ember-raf-scheduler@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/ember-raf-scheduler/-/ember-raf-scheduler-0.2.0.tgz#73250f6ca9760e4920c26d2eeb69738dc66dadc5"
-  integrity sha512-z34reOLFORfigukrba3d5I333rixfcPjjfKPOKeaPAHf3I5wXfenoAze0Ijc7r4l/lO/4ocLw9RJbtNL2/oNpw==
+ember-raf-scheduler@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/ember-raf-scheduler/-/ember-raf-scheduler-0.3.0.tgz#7657ee5c1d54f852731e61e9d0e0750a9a22f5f4"
+  integrity sha512-i8JWQidNCX7n5TOTIKRDR0bnsQN9aJh/GtOJKINz2Wr+I7L7sYVhli6MFqMYNGKC9j9e6iWsznfAIxddheyEow==
   dependencies:
-    ember-cli-babel "^7.12.0"
+    ember-cli-babel "^7.26.6"
 
 ember-resolver@8.0.3:
   version "8.0.3"
@@ -13664,6 +13685,13 @@ rollup@^1.12.0:
     "@types/estree" "*"
     "@types/node" "*"
     acorn "^7.1.0"
+
+rollup@^2.50.0:
+  version "2.79.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.79.1.tgz#bedee8faef7c9f93a2647ac0108748f497f081c7"
+  integrity sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 route-recognizer@^0.3.3:
   version "0.3.4"
