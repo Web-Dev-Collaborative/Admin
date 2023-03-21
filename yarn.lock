@@ -1938,10 +1938,10 @@
     lodash "^4.17.21"
     uuid "^8.3.2"
 
-"@tryghost/kg-clean-basic-html@2.2.6", "@tryghost/kg-clean-basic-html@^2.2.6":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@tryghost/kg-clean-basic-html/-/kg-clean-basic-html-2.2.6.tgz#78f6245f8934a638d5baf150eaaf36bef368fee1"
-  integrity sha512-8kKW4qPtaz3ILYPxvyh3E4jRlP4xfzOnNedwIUbwXSMQsos9RxY6xRHCIr0kympcMueIUcGKTAyudAKpYwvGBA==
+"@tryghost/kg-clean-basic-html@2.2.27", "@tryghost/kg-clean-basic-html@^2.2.6":
+  version "2.2.27"
+  resolved "https://registry.yarnpkg.com/@tryghost/kg-clean-basic-html/-/kg-clean-basic-html-2.2.27.tgz#43f9a526dce0e4bd35b823051daf8b26c4c762b7"
+  integrity sha512-xZrtYFmKcUNxyDU61+0liQ2a0Wr5QSZO/rbLo223H84pqhgcgDRTpe9fYEeUxn2vDUtCgueM5q8ayUoIu2MAJw==
 
 "@tryghost/kg-parser-plugins@2.11.2":
   version "2.11.2"
