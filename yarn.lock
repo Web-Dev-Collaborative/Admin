@@ -1938,17 +1938,22 @@
     lodash "^4.17.21"
     uuid "^8.3.2"
 
-"@tryghost/kg-clean-basic-html@2.2.6", "@tryghost/kg-clean-basic-html@^2.2.6":
+"@tryghost/kg-clean-basic-html@2.2.6":
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/@tryghost/kg-clean-basic-html/-/kg-clean-basic-html-2.2.6.tgz#78f6245f8934a638d5baf150eaaf36bef368fee1"
   integrity sha512-8kKW4qPtaz3ILYPxvyh3E4jRlP4xfzOnNedwIUbwXSMQsos9RxY6xRHCIr0kympcMueIUcGKTAyudAKpYwvGBA==
 
-"@tryghost/kg-parser-plugins@2.11.2":
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/@tryghost/kg-parser-plugins/-/kg-parser-plugins-2.11.2.tgz#a858523da3cae73dd0477fbca5167df7cbd4f52e"
-  integrity sha512-4n4yIUhhnzqjlsSnhyznrl7BaFqRGI0UOsgqm+ovN4EF+EhCFQXCLkmCndEq1gBDA9U9IsOvUHk7bcstUcDibw==
+"@tryghost/kg-clean-basic-html@^3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@tryghost/kg-clean-basic-html/-/kg-clean-basic-html-3.0.8.tgz#432f861d240b4e7a5dff71226980169a8525a0c4"
+  integrity sha512-HL9cBtaHIEuOXy5WoYdV+JOMc9Bssr/1KUgh1wxNSzI4SvgHg5ZiXX2A3cSmWogBVPBpj7Q75GTYgvhgpDNWbQ==
+
+"@tryghost/kg-parser-plugins@3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@tryghost/kg-parser-plugins/-/kg-parser-plugins-3.0.9.tgz#0feaa1224a4bd3f9d672060cf8b5a1c381b7de0f"
+  integrity sha512-tHKpMY3Qm0vVzhr1y6ZcYe6w6TKy5KOumfV/sNte5b63dCnSnB3y92aFLf5ZFXwpYiJyimVh37CP4ucLg5G22A==
   dependencies:
-    "@tryghost/kg-clean-basic-html" "^2.2.6"
+    "@tryghost/kg-clean-basic-html" "^3.0.8"
 
 "@tryghost/limit-service@1.0.0":
   version "1.0.0"
